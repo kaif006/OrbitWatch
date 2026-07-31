@@ -1,6 +1,6 @@
 using backend.Models;
 
-namespace NeoVisualizer.Api.Services;
+namespace backend.Services;
 
 public interface INeoService
 {
