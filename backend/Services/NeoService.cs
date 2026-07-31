@@ -24,7 +24,7 @@ public class NeoService : INeoService
         _logger = logger;
     }
 
-    public async Task<NeoFeedResponse> GetRawFeedAsync(
+    public async Task<NeoFeedResponse?> GetRawFeedAsync(
         DateTime startDate,
         DateTime endDate,
         CancellationToken ct = default
